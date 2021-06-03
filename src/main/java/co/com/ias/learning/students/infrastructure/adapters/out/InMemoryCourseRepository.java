@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 
-@Repository
+
 public class InMemoryCourseRepository implements CourseRepository {
 
     private final Map<IdentificationNumber, Course> databasecourse = new HashMap<>();

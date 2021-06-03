@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
-@Repository
+
 public class InMemoryStudentsRepository implements StudentsRepository {
     private final Map<IdentificationNumber, Student> database = new HashMap<>();
 
